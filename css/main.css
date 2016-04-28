@@ -1,0 +1,457 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,700,300);
+
+.clearfix {
+  *zoom: 1;
+}
+
+.clearfix:before,
+.clearfix:after {
+  display: table;
+  content: "";
+  line-height: 0;
+}
+.clearfix:after {
+  clear: both;
+}
+body{
+	color: #34495E;
+}
+* a:hover{
+	text-decoration: none;
+}
+nav {
+	background-color: #34495E ;
+	padding: 1% 0;
+}
+nav a{
+    color: rgba(255, 255, 255, 0.67);
+}
+nav a:hover{
+	background-color: #2C3E50!important;
+	border-radius: 3px;
+	color: white;
+}
+header{
+	width:100%;
+	background-size: cover;
+	color: white;
+	padding:17% 0;
+	background-repeat: no-repeat;
+	animation: slider 10s infinite;
+}	
+@keyframes slider {
+	0%, 30%{
+		background-image: url("../images/slider/bg1.jpg");
+
+	}
+	35%, 65%{
+		background-image: url("../images/slider/bg2.jpg");
+	}
+	70%, 100%{
+		background-image: url("../images/slider/bg3.jpg");
+	}
+}
+
+/*la barra verde que se repite*/
+.barra-verde{
+	background-color: #2ECC71;
+	color: white;
+	padding:3% 0;
+}
+.barra-verde .redes-sociales{
+    background-color: rgba(0, 0, 0, 0.43);
+    border-radius: 100px;
+    display: inline-block;
+    color: white;
+    padding: 27%;
+    width: 60px;
+    height: 60px;   
+    text-align: center;
+}
+.redes h2{
+	font-size: 25px;
+	margin-top: 0;
+}
+
+.portafolio{
+	background-color: #F5F5F5;
+	padding: 5% 0;
+}
+.portafolio h2{
+	font-size: 25px;
+}
+.caja-botones a{
+	display: inline-block;
+    color: white;
+    background-color: #E74C3C;
+    float: left;
+    padding: 11% 18%;
+    border-left: 1px solid rgba(255, 0, 0, 0.42);;
+}
+.caja-botones a:hover{
+    background-color: #E22613;
+}
+.caja-botones .botonera{
+    display: inline-block;
+    color: white;
+    background-color: #E74C3C;
+    border-radius: 3px;
+    border: 1px solid rgba(255, 0, 0, 0.42);;
+    clear: both;
+    width: 69px;
+}
+.portafolio img{
+	margin: auto;
+	width: 100%;
+}
+.client-say{
+	background-color: #E74C3C;
+	color: white;
+	padding: 5% 0;
+}
+.portafolio .imagen-container{
+	padding: 1.5% 1%;
+    margin: 0% 3%;
+    border: 1px solid rgba(128, 128, 128, 0.09);
+	background-color: white;
+	text-align: left;
+}
+
+.client-say .coment{
+	border-left: 5px solid white;
+	text-align: left;
+	margin: 3% 0 0%;
+}
+
+.about-us{
+	color: white;
+	padding: 5% 0;
+	background-color: #34495E;
+}
+.about-us a{
+	color: white;
+}
+.blog p, .blog small{
+	display: inline-block;
+}
+
+.blog img{
+	display: inline-block;
+	width: 25%;
+	max-width: 66px;
+}
+.blog .text-container{
+	width: 69%
+}
+.entrada{
+	margin: 5% 0;
+}
+.about-us form{
+	background: transparent;
+	border: none;
+	position: relative;
+}
+.about-us button{
+    position: absolute;
+    top: 17%;
+   	right: 12px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+footer{
+	background-color: #2C3E50;
+	padding: 2% 0;
+	color: white;
+}
+.nav-footer a{
+	color: white;
+}
+
+/*about us*/
+.barra-verde a{
+	color: white;
+}
+.we-are{
+	background-color: #F5F5F5;
+    padding: 4% 0;
+}
+.we-are .progress{
+	height: 30px !important;
+}
+.progress span{
+	margin:6px auto;
+	display: inline-block;
+}
+.team{
+	margin: 5% 0;
+}
+.team h6{
+	color: grey;
+}
+.team a{
+	color: white;
+    padding: 10px;
+    height: 40px;
+    width: 40px;
+    display: inline-block;
+}
+.team a:nth-child(1){
+	background-color: #4F7DD4;
+}
+.team a:nth-child(2){
+	background-color: #DC422B;
+}
+.team a:nth-child(3){
+	background-color: #5BCEFF;
+}
+.team a:nth-child(4){
+	background-color: #21A6D8;
+}
+
+.we-do{
+	background-color: #F5F5F5;
+	padding: 4% 0;
+}
+.borde-we{
+	border-bottom: 2px groove rgba(255, 255, 255, 0.3);
+}
+.we-do .icono{
+	color: white;
+	background-color: #939393;
+	padding: 15px;
+}
+.we-do .icono:hover{
+	background-color: grey;
+}
+.we-do h3{
+	margin-top: 0;
+}
+.we-do .skill{
+	margin: 3% 0 2%;
+}
+.say-2{
+	background-color: #F5F5F5;
+}
+.say-2 .comentarios2{
+	margin: 4% 0;
+	border-left: 5px solid #EEEEEE;
+	padding-bottom: 2%;
+}
+.comentarios2 small{
+	color: #ABABAB;
+}
+
+
+/*REINA-Portfolio/Flat theme*/
+.back-home-verde {
+	float: right!important;
+}
+.back-home-verde li {
+    list-style: none!important;
+    display: inline-block;
+}
+.back-home-verde a {
+	color: white;
+	text-decoration: none;
+}
+.back-home-verde ul {
+	margin-top: -35%;
+}
+.image-portfolio {
+	margin-bottom: 7%;
+    box-shadow: 0px 0px 1px #989898;
+	background-color: white;
+    padding: 2.5% 2.5% 1%;
+}
+.image-portfolio p {
+	font-weight: 600;
+	margin-top: 2%;	
+}
+.mt-5 {
+	margin-top: 5%!important;
+}
+.mb-5 {
+	margin-bottom: 5%!important;
+}
+.backg-image {
+	width: 100%;
+    padding: 37.5%;
+    background-image: url("../images/portfolio/full/item1.jpg");
+    background-size: 100% 125%;
+    background-position: 100% 0;
+}
+.bg-gray {
+	background-color: #F5F5F5;
+}
+/*fin-Portfolio*/
+
+/*REINA-Blog/Flat theme*/
+.entrada-blog {
+	padding-bottom: 2%;
+	border-radius: 7px;   
+	background-color: white;
+}.entrada-blog h5 i {
+	margin: 0 1% 0 3%;
+}
+.entrada-blog h5 {
+	color: #999999;
+}
+.entrada-blog h1 {
+	font-size: 1.7em;
+}
+.backg-image1-blog,
+.backg-image2-blog {
+    width: 100%;
+    padding: 20%;
+    border-top-right-radius: 7px;
+    border-top-left-radius: 7px;
+    background-size: 100% 100%;
+}
+.backg-image2-blog {
+	background-image: url("../images/blog/blog2.jpg");
+}
+.backg-image1-blog {
+    background-image: url("../images/blog/blog1.jpg");
+}
+.mt-5 {
+	margin-top: 5%;
+}
+.mt-3 {
+	margin-top: 3%;
+}
+.bottom-entrada {
+	padding: 0 3% 2%;
+}
+.read-more-button {
+	border: 1px solid #999999;
+    border-radius: 3px;
+    width: 14%;
+    text-align: center;
+    padding-top: 1%;
+    margin: -2% 3% 0;
+}
+.pagination a {
+	color: #34495E;
+	font-size: 1.5em;
+	border: none!important;
+}
+.pagination a:hover {
+	background-color: #34495E!important;
+	color: white;
+}
+.mb-10 {
+	margin-bottom: 10%;
+}
+.btn-danger {
+	border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    border-bottom-left-radius: 0px;
+    border-top-left-radius: 0px;
+}
+.form-control {
+	display: inline-block;
+    width: 91%;
+}
+.btn-danger {
+	margin-left: -3%;
+}
+.mt-10 {
+	margin-top: 10%!important;
+}
+.ad-image {
+	margin-top: 13%;
+}
+.ad-image img {
+	border-radius: 7px;
+}
+.blog-categories li {
+	list-style: none;
+}
+.blog-categories a {
+	text-decoration: none;
+	color: #34495E;
+	font-size: 1.1em;
+}
+.subtitulo-blog {
+	margin-left: 4%;
+}
+.blog-categories ul {
+	margin-left: -22%;
+}
+.btn-primary {
+	padding: 1%;
+	margin-bottom: 1%;
+	font-size: 0.9em;
+}
+/*fin-Blog*/
+/*REINA-Blog-item/Flat theme*/
+.first-p {
+	font-size: 1.3em;
+}
+.border-bottom-gray {
+	padding-bottom: 3%;
+    border-bottom: 1px solid #E5E5E5;
+}
+.btn-blog-item {
+	margin-left: 1%;
+    padding: 0.5%;
+}
+
+
+
+/*fin-Blog-item*/
+/*media*/
+@media (max-width: 768px) {
+	.navbar-toggle{
+		background-color: #34495E !important;
+		border:1px solid black!important;
+	}
+	.navbar-toggle span{
+		background-color: white !important;
+	}
+  header{
+    	background-position: top center;
+    	padding: 50% 5%;
+	}
+	.barra-verde{
+		padding:6% 4%;
+	}
+	.barra-verde .redes-sociales{
+		padding: 16px;
+	}
+	.portafolio{
+		padding: 10% 0;
+	}
+	.portafolio .imagen-container{
+	    margin: 7% 4%;
+		padding: 2.3% 2%;
+		border: 1px solid rgba(128, 128, 128, 0.25);
+	}
+	.imagen-container h5{
+		font-weight: bold;
+	}
+	.client-say{
+		padding: 9% 0;
+	}
+	.client-say p{
+		margin-bottom: 9%;
+	}
+	.client-say .coment{
+		margin: 3% 3% 0%;
+	}
+	.about-us{
+		padding: 7% 0;
+	}
+	.blog .text-container {
+    width: 83%;
+	}
+	.blog p, .blog small {
+    display: block;
+	}
+	.borde-we > p{
+		margin-bottom: 10%;
+	}
+	.say-2{
+		padding: 15px;
+	}
+}
